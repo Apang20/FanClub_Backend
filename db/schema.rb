@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 2021_02_24_045555) do
     t.string "associations"
     t.string "first_name"
     t.string "last_name"
-    t.string "user_name"
+    t.string "username"
     t.string "billing_address"
     t.string "shipping_address"
     t.string "email"

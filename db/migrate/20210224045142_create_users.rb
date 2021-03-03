@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :associations
       t.string :first_name
       t.string :last_name
-      t.string :user_name
+      t.string :username
       t.string :billing_address
       t.string :shipping_address
       t.string :email
