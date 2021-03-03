@@ -14,12 +14,15 @@ class CartItemsController < ApplicationController
     end 
 
     def create
-        #byebug
-        # cart_item = CartItem.create(params)
-        # cart_item = CartItem.create(item_id: params["item_id"], cart_id: params["cart_id"])
+        # byebug
         cart_item = CartItem.create(cart_item_params)
-          render json: cart_item.to_json(:except => [:updated_at, :created_at])
+        render json: cart_item.to_json(:except => [:updated_at, :created_at])
     end
+
+    #byebug
+    # cart_item = CartItem.create(params)
+    # cart_item = CartItem.create(item_id: params["item_id"], cart_id: params["cart_id"])
+    # cart_item = CartItem.create(cart_item_params)
     # def update
     #     cart_item = CartItem.find(params[:id])
     #     cart_item.update(cart_item_params)
@@ -32,6 +35,8 @@ class CartItemsController < ApplicationController
         render json: {"Deleted": "deleted", cart_item: cart_item}
         # render json: {message: "Successfully Removed"}
     end
+
+    private 
     
     def cart_item_params
         params.require(:cart_item).permit(:cart_id, :item_id)
