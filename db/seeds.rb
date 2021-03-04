@@ -13,9 +13,8 @@ User.destroy_all
 
 
 #USER
-user1 = User.create(first_name: "bob", last_name: "smith", email: "hayaom@gmail.com", billing_address: "1-1-83 Shimorenjaku, Mitaka
-Tokyo 181-0013", shipping_address: "1-1-83 Shimorenjaku, Mitaka
-Tokyo 181-0013", phone_number: "123-456-7890", password: "totoro", username: "bobs")
+user1 = User.create(first_name: "Bob", last_name: "Smith", email: "bobs@gmail.com", billing_address: "123 Lovers Lane Austin,TX 78747", shipping_address: "123 Lovers Lane Austin,TX 78747", phone_number: "123-456-7890", password: "Bobs123", username: "Bobs123")
+user2 = User.create(first_name: "Avy", last_name: "Pang", email: "apang@gmail.com", billing_address: "123 Austin Avenue Austin,TX 78704", shipping_address: "123 Austin Avenue Austin,TX 78704", phone_number: "123-456-7890", password: "Apang123", username: "Apang123")
 
 
 #---------------------------------ITEMS-------------------------------------------------------- 
@@ -219,7 +218,7 @@ ghibli14 = Item.create(name: "My Neighborhood Totoro Ghibli Characters Linen Thr
 #---------------------------------------------------------------------------------
 #CART
 cart1 = Cart.create(user_id: User.first.id, purchase: false)
-cart2 = Cart.create(user_id: User.first.id, purchase: false)
+cart2 = Cart.create(user_id: User.second.id, purchase: false)
 
 #CART_ITEM
 cart_item1 = CartItem.create(cart_id: Cart.first.id, item_id: Item.first.id)
