@@ -1,6 +1,7 @@
 class ItemsController < ApplicationController
 
-    # skip_before_action :authorized, only: [:create]
+    # skip_before_action :authorized, only: [:index, :destroy]
+ #This items control is ignoring JWT AUTH ^ just pick specific methods
     def index
         # render json: Items.all.to_json(
         # except: [:created_at, :updated_at])

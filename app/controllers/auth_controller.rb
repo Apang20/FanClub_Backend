@@ -2,7 +2,8 @@ class AuthController < ApplicationController
 #FakeAuth is lines 3-6
 
     def create
-      user = User.find_by(username: params[:username])
+      # byebug
+      user = User.find_by(username: params[:user][:username])
       render json: user.to_json({include: [:carts => {:include => [:cart_items => {:include => [:item]}]}], except: [:created_at, :updated_at]})
 
     end

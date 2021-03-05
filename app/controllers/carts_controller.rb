@@ -1,6 +1,6 @@
 class CartsController < ApplicationController
 
-    # skip_before_action :authorized, only: [:create, :index]
+    #  skip_before_action :authorized, only: [:create, :index]
 
     def index
         cart_items = CartItem.all 
@@ -12,9 +12,6 @@ class CartsController < ApplicationController
         render json: cart
     end
 
-    # def destroy
-
-    # end 
     # def create 
     #     # cart = Cart.create(user_id: params["user_id"], item_id: params["item_id"])
     #     # render json: cart
