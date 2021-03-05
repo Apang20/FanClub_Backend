@@ -1,6 +1,6 @@
 class CartsController < ApplicationController
 
-    #  skip_before_action :authorized, only: [:create, :index]
+     skip_before_action :authorized, only: [:index, :show]
 
     def index
         cart_items = CartItem.all 
