@@ -2,8 +2,9 @@ Rails.application.routes.draw do
   resources :items
   resources :cart_items
   resources :carts
+  patch '/users/:id', to: 'users#edit'
   resources :users
-
+  
   # resources :users, only: [:create]
     post '/login', to: 'auth#create'
     post '/cart_items', to: 'cart_items#create'
