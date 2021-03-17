@@ -1,6 +1,6 @@
 # README
 
-Ghibli-FanClub-Store
+Ghibli-FanClub-App
 
 An e-commerce application for exclusive members to browse and purchase rare collectable items:
 
