@@ -12,17 +12,4 @@ class CartsController < ApplicationController
         render json: cart
     end
 
-    # def create 
-    #     # cart = Cart.create(user_id: params["user_id"], item_id: params["item_id"])
-    #     # render json: cart
-    #     #byebug
-    #     cart = Cart.find(params[:cart_id])
-    #     render json: cart.to_json({include: [:carts => {:include => [:items]}], except: [:created_at, :updated_at]})
-
-    # end
-
-   
-
 end
-#user = User.find(params[:id])
-#render json: user.to_json({include: [:carts => {:include => [:items]}], except: [:created_at, :updated_at]})
