@@ -1,6 +1,6 @@
 # README
 
-DEMO: https://www.youtube.com/watch?v=FllbOmqOxkw
+Ghibli-FanClub-Store
 
 An e-commerce application for exclusive members to browse and purchase rare collectable items:
 
@@ -11,3 +11,6 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 * Executed multiple callback functions through the invocation of JS event listeners on specific nodes
 
 * Designed an interactive frontend with multiple advanced libraries to provide seamless navigation for the user 
+
+
+DEMO: https://www.youtube.com/watch?v=FllbOmqOxkw
