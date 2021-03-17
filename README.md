@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DEMO: https://www.youtube.com/watch?v=FllbOmqOxkw
 
-Things you may want to cover:
+An e-commerce application for exclusive members to browse and purchase rare collectable items:
 
-* Ruby version
+* Utilized JSON Web Tokens and localStorage to store encrypted user information client-side for ensuring security
 
-* System dependencies
+* Delivered a Javascript/React/ frontend and Ruby on Rails/Active Record/Postgres back-end application
 
-* Configuration
+* Executed multiple callback functions through the invocation of JS event listeners on specific nodes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Designed an interactive frontend with multiple advanced libraries to provide seamless navigation for the user 
