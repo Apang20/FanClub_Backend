@@ -11,7 +11,7 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 
 ## Demo
 
-- [2 min Demo Video](https://www.youtube.com/watch?v=FllbOmqOxkw)
+- [Short Demo Video](https://www.youtube.com/watch?v=FllbOmqOxkw)
 
 ## To Start This Project
 - App: rails db:migrate, rails db:seed, rails s
