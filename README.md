@@ -27,7 +27,6 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 - Edit account information
 - User can checkout 
 - User can logout when finished
-- (**Disclaimer:**)(*I do not own the rights to Ghibli or their items/Not a real store/checkout will not withdraw actual payment*)
 
 ## Suggested Review
 - Ruby version
@@ -37,3 +36,4 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 - Database creation
 - ...
 
+**Disclaimer: I do not own the rights to Ghibli or their items/Not a real store/checkout will not withdraw actual payment**
