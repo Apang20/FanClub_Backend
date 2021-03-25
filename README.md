@@ -12,6 +12,10 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 
 - [2 min Demo Video](https://www.youtube.com/watch?v=FllbOmqOxkw)
 
+## To Start This Project
+- App: rails db:migrate, rails db:seed, rails s
+- Frontend: npm install, npm start
+
 ## Suggested Review
 - Ruby version
 - Ruby Gems
