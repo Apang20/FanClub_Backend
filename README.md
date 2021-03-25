@@ -25,8 +25,7 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 - Delete items from cart
 - View the updated cart total
 - Edit account information
-- User can checkout 
-- User can logout when finished
+- User can checkout or logout when finished
 
 ## Suggested Review
 - Ruby version
