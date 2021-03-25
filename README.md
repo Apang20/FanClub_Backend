@@ -1,4 +1,4 @@
- ![image](https://user-images.githubusercontent.com/62185859/112555103-840cb180-8d95-11eb-9659-979e4493e33d.png) ![image](https://user-images.githubusercontent.com/62185859/112555130-91c23700-8d95-11eb-8df0-eace799b0e4a.png)
+ ![image](https://user-images.githubusercontent.com/62185859/112555130-91c23700-8d95-11eb-8df0-eace799b0e4a.png)
 
 
 # Ghibli Fan Club
