@@ -36,4 +36,4 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 - Database creation
 - ...
 
-**Disclaimer: I do not own the rights to Ghibli or their items/Not a real store/checkout will not withdraw actual payment**
+*Disclaimer: I do not own the rights to Ghibli or their items/Not a real store/checkout will not withdraw actual payment*
