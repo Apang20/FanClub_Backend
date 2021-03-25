@@ -17,6 +17,18 @@ An e-commerce application for exclusive members to browse and purchase rare coll
 - App: rails db:migrate, rails db:seed, rails s
 - Frontend: npm install, npm start
 
+## User Stories
+- Must login or register to access the site
+- Browse all Ghibli items
+- Search items by movie
+- Add multiple items to cart
+- Delete items from cart
+- View the updated cart total
+- Edit account information
+- User can checkout 
+- User can logout when finished
+- (**Disclaimer:**)(*I do not own the rights to Ghibli or their items/Not a real store/checkout will not withdraw actual payment*)
+
 ## Suggested Review
 - Ruby version
 - Ruby Gems
