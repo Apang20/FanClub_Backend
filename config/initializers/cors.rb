@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://ghibli-fanclub-store.herokuapp.com/'
+    origins 'https://powerful-island-44705.herokuapp.com/'
 
     resource '*',
       headers: :any,
