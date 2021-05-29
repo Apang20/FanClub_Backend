@@ -19,7 +19,6 @@ class UsersController < ApplicationController
     end
 
     def edit 
-      # byebug
       user = User.find(params[:id])
       user.update_attribute(:username, user_params[:username])
       user.update_attribute(:email, user_params[:email])
