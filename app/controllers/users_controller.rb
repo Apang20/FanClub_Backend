@@ -19,7 +19,7 @@ class UsersController < ApplicationController
     end
 
     def edit 
-      # byebug
+
       user = User.find(params[:id])
       user.update_attribute(:username, user_params[:username])
       user.update_attribute(:email, user_params[:email])
@@ -30,7 +30,7 @@ class UsersController < ApplicationController
     
     def user_params
       params.require(:user).permit(:username, :email, :password)
-      # params.require(:user).permit(:username, :email, :password, :first_name, :last_name, :phone_number, :shipping_address)
+      
     end
 
 

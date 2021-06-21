@@ -14,7 +14,6 @@ class CartItemsController < ApplicationController
     end 
 
     def create
-        # byebug
         cart_item = CartItem.create(cart_item_params)
         render json: cart_item.to_json(:except => [:updated_at, :created_at])
     end
